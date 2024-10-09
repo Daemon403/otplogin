@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttons a:hover {
+    background-color: #286090;
+}
+.back-link {
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.back-link a:hover {
+    background-color: #286090;
+}
